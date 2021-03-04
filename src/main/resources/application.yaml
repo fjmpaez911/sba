@@ -1,0 +1,15 @@
+
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+        catalogServicesWatchDelay: 5000
+#        service-labels:
+#          type: spring-boot
+
+  boot:
+    admin:
+      monitor:
+        status-interval: 3s
+        status-lifetime: 3s
