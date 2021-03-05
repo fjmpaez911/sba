@@ -1,0 +1,5 @@
+
+
+${AnsiColor.GREEN}:: ${spring.application.name}:${expanded.project.version} ::
+${AnsiColor.DEFAULT}
+

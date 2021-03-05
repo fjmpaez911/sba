@@ -3,10 +3,11 @@ spring:
   cloud:
     kubernetes:
       discovery:
+        primary-port-name: manage
         all-namespaces: true
         catalogServicesWatchDelay: 5000
-#        service-labels:
-#          type: spring-boot
+        service-labels:
+          type: spring-boot
 
   boot:
     admin:
