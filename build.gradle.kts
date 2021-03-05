@@ -2,8 +2,8 @@
 plugins {
 	java
 	`maven-publish`
-	id("org.springframework.boot") version "2.3.5.RELEASE"
-	id("io.spring.dependency-management") version "1.0.10.RELEASE"
+	id("org.springframework.boot") version "2.4.3"
+	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	id("net.researchgate.release") version "2.8.1"
 }
 
@@ -15,8 +15,8 @@ configure<JavaPluginConvention> {
 	sourceCompatibility = JavaVersion.VERSION_11
 }
 
-extra["springCloudVersion"] = "Hoxton.SR8"
-extra["springBootAdminVersion"] = "2.3.1"
+extra["springCloudVersion"] = "Hoxton.SR10"
+extra["springBootAdminVersion"] = "2.4.0"
 
 dependencies {
 
